@@ -1,0 +1,20 @@
+<div class="row mt-4">
+  <div class="col-sm-3 mt-4" *ngFor="let trek of trekArray">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">{{ trek.Place }}</h5>
+      </div>
+      <div class="card-body">
+        AVAILABLE TREKS:
+        <p>{{ trek.availableTreks }}</p>
+      </div>
+      <div class="card-footer">
+        <button class="btn btn-primary">Book Your Trek</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- <div>
+  {{ trek | json }}
+</div> -->
