@@ -14,18 +14,18 @@ export class CardComponent implements OnInit {
   // };
   constructor() {}
   trekArray = [
-    { Place: 'pawana camp', availableTreks: 112 },
+    { Place: 'Pawana camping', availableTreks: 112 },
     {
-      Place: 'pawana camp',
-      availableTreks: 112,
+      Place: 'Rajmachi camping',
+      availableTreks: 1,
     },
     {
-      Place: 'pawana camp',
+      Place: 'Ratangad trek',
       availableTreks: 11,
     },
     {
-      Place: 'pawana camp',
-      availableTreks: 1,
+      Place: 'Aadrai jungle trek',
+      availableTreks: 10,
     },
   ];
 
