@@ -18,6 +18,8 @@ export class LoginformComponent implements OnInit {
       password: password.value,
     };
     console.log(obj);
+    email.value = '';
+    password.value = '';
 
     this._userInstance.loginUser(obj);
   }
